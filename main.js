@@ -1,6 +1,4 @@
-const playingField = document.getElementById("playing-field")
-const block=document.getElementById("block")
-block.style.backgroundColor="yellow"
+
 //create element h1
 const header = document.createElement("h1")
 header.innerHTML = "The Best Game Ever"
@@ -42,7 +40,7 @@ up.onclick=function(){
 down.onclick=function(){
     down = parseInt(ball.style.top) || 0
     down += 15
-   if(down <= field.offsetHeight - ball.offsetWidth - arrows.offsetHeight){
+   if(down <= field.offsetHeight - ball.offsetHeight - arrows.offsetHeight){
    ball.style.top = down + "px"
    }
    ball.style.bottom=ball.style.top
@@ -55,7 +53,7 @@ down.onclick=function(){
     if(right <= (field.offsetWidth-ball.offsetWidth-10)) {
         ball.style.left = right + "px"
     }
-    ball.style.right=ball.style.left
+    ball.style.right = ball.style.left
 }
 //move left
 
@@ -67,4 +65,6 @@ down.onclick=function(){
     }
     ball.style.left=ball.style.right
 }
+
+
 

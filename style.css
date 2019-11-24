@@ -4,12 +4,12 @@ body{
 
 #container{
     
-    width: 100%;
-    height: 100vh;
+    width: 50vw;
+    height: 95vh;
     
     position: absolute;
-    margin-left: 50%;
-    left: -250px;
+    
+    
 }
 
 #playing-field{
